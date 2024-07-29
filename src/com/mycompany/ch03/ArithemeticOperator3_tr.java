@@ -1,9 +1,10 @@
 package com.mycompany.ch03;
 
-public class ArithemeticOperator3 {
+public class ArithemeticOperator3_tr {
 
 	public static void main(String[] args) {
-		//산술연산자(*,/,+,-,%)
+		//산술연산자
+		
 		int v1 = 5;
 		int v2 = 2;
 		
@@ -11,7 +12,7 @@ public class ArithemeticOperator3 {
 		int result2 = v1 - v2;
 		int result3 = v1 * v2;
 		int result4 = v1 / v2;
-		int result5 = v1 % v2; //나머지값
+		int result5 = v1 % v2;
 		System.out.println("result1: " + result1);
 		System.out.println("result2: " + result2);
 		System.out.println("result3: " + result3);
