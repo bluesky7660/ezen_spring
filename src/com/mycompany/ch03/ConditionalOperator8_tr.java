@@ -11,7 +11,7 @@ public class ConditionalOperator8_tr {
 		int a = 0;
 		int b = (a == 0) ? 10: 20;
 		System.out.println("b: " + b);
-
+  
 	}
 
 }
