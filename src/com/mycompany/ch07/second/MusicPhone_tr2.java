@@ -1,6 +1,6 @@
 package com.mycompany.ch07.second;
 
-public class MusicPhone_tr extends Phone_tr{
+public class MusicPhone_tr2 extends Phone_tr2{
 	public void musicDown() {
 		System.out.println("음악다운받기");
 	}

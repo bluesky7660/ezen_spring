@@ -45,4 +45,43 @@ public class Suv_tr {
 		return result;
 
 	}
+	public String pay2(String a) {
+		int result = 0;
+		String result2 = "";
+		switch (a) {
+			case "사장": {
+				result = 20000;
+				break;
+			}
+			case "부장": {
+				result = 10000;
+				break;
+			}
+			case "과장": {
+				result = 8000;
+				break;
+			}
+			case "대리": {
+				result = 6000;
+				break;
+			}
+			case "사원": {
+				result = 4000;
+				break;
+			}
+			case "나": {
+				result = 3000;
+				break;
+			}
+		}
+		result /=1000;
+		
+		if(result> 9) {
+			result/=10;
+			result2 = result +"억원";
+		}else {
+			result2 = result +"천만원";
+		}
+		return result2;
+	}
 }

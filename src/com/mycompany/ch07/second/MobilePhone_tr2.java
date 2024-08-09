@@ -1,6 +1,6 @@
 package com.mycompany.ch07.second;
 
-public class MobilePhone_tr extends Phone_tr {
+public class MobilePhone_tr2 extends Phone_tr2{
 
 	@Override
 	public void callVoice() {
@@ -21,5 +21,6 @@ public class MobilePhone_tr extends Phone_tr {
 	public void charging() {
 		System.out.println("배터리 충전 모바일");
 	}
+
 
 }
